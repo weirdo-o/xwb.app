@@ -5,11 +5,28 @@
 	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/xiangqing.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="shortcut icon" href="xiaowei.ico">
     <script src="js/rem.js"></script>
+	<script src="js/swiper.min.js"></script>
 </head>
+<style>
+	.swiper-pagination .lunbo{
+		width: 2rem;
+		height: 0.3rem;
+		/* background: black; */
+		position: absolute;
+		bottom: 0.25rem;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.swiper-pagination.lunbo .swiper-pagination-bullet-active{
+		background: #f45c4f;
+	}
+</style>
 <body>
 	<div class="toubu">
 	    <a href="liebiao.html" class="gouwuche">
@@ -34,40 +51,40 @@
 			<i class="iconfont icontb-2">&#xe609;</i>
 		</a>
 	</div>
-	<div class="banner">
-		<ul class="bannertu">
-			<li class="bannertu-list">
+	<div class="swiper-container banner">
+		<ul class="swiper-wrapper bannertu">
+			<li class="swiper-slide bannertu-list">
 				<a href="" class="bannertu1">
 					<img src="img/xqbn1.jpg" alt="">
 				</a>
 			</li>
-			<li class="bannertu-list">
+			<li class="swiper-slide bannertu-list">
 				<a href="" class="bannertu1">
 					<img src="img/xqbn2.jpg" alt="">
 				</a>
 			</li>
-			<li class="bannertu-list">
+			<li class="swiper-slide bannertu-list">
 				<a href="" class="bannertu1">
 					<img src="img/xqbn3.jpg" alt="">
 				</a>
 			</li>
-			<li class="bannertu-list">
+			<li class="swiper-slide bannertu-list">
 				<a href="" class="bannertu1">
 					<img src="img/xqbn4.jpg" alt="">
 				</a>
 			</li>
-			<li class="bannertu-list">
+			<li class="swiper-slide bannertu-list">
 				<a href="" class="bannertu1">
 					<img src="img/xqbn5.jpg" alt="">
 				</a>
 			</li>
 		</ul>
-		<ul class="lunbo">
-			<li class="yuandian"></li>
-			<li class="yuandian"></li>
-			<li class="yuandian"></li>
-			<li class="yuandian"></li>
-			<li class="yuandian"></li>
+		<ul class="swiper-pagination lunbo">
+			<!--<li class="yuandian"></li>-->
+			<!--<li class="yuandian"></li>-->
+			<!--<li class="yuandian"></li>-->
+			<!--<li class="yuandian"></li>-->
+			<!--<li class="yuandian"></li>-->
 		</ul>
 	</div>
 	<div href="" class="dibu-list1">
@@ -215,3 +232,17 @@
     </div>
 </body>
 </html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        }
+    });
+</script>
