@@ -1,0 +1,252 @@
+/*
+* @Author: ow
+* @Date:   2018-01-05 21:46:33
+* @Last Modified by:   ow
+* @Last Modified time: 2018-01-06 00:08:16
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 531051 */
+  src: url('http://at.alicdn.com/t/font_531051_l3fz3xe2h3j1c3di.eot');
+  src: url('http://at.alicdn.com/t/font_531051_l3fz3xe2h3j1c3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_531051_l3fz3xe2h3j1c3di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_531051_l3fz3xe2h3j1c3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_531051_l3fz3xe2h3j1c3di.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 1.48rem;
+	background: #fff;
+	padding: 0 0.24rem 0 0.24rem;
+	border-bottom: 0.02rem solid #f4f5f9;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.icontb9{
+	font-size: 0.6rem;
+	color:#303030 ;
+}
+.h-title{
+	font-size: 0.6rem;
+	color: #303030;
+}
+.touxiang{
+	width: 100%;
+	height: 4.78rem;
+	/* background: yellowgreen; */
+	border-top: 0.02rem solid #f4f5f9;
+	border-bottom: 0.02rem solid #f4f5f9;
+	box-sizing: border-box;
+	margin-top: 1.48rem;
+}
+.touxiang-top{
+	width: 100%;
+	height: 60%;
+	/* background: yellow; */
+	padding: 0 0.24rem 0 0.24rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.touxiang1{
+	width: 40%;
+	height: 70%;
+	display: block;
+	display: flex;
+	justify-content: space-between;
+}
+.touxiangtu{
+	width: 1.85rem;
+	height: 1.85rem;
+	display: block;
+}
+.touxiang1 img{
+	width: 100%;
+	height: 100%;
+}
+.mingzi{
+	font-size: 0.6rem;
+	color: #303030;
+}
+.touxiang2{
+	font-size: 0.4rem;
+	color: #c5c5c5;
+}
+.touxiang-dibu{
+	width: 100%;
+	height: 40%;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.tx-l1{
+	text-align: center;
+}
+.icontx1{
+	font-size: 0.5rem;
+	color:#9e9e9e; 
+}
+.tx-shuzi{
+	font-size: 0.5rem;
+	color: #313131;
+}
+.tx-wenzi{
+	font-size: 0.5rem;
+	color: #9e9e9e;
+	margin-top: 0.2rem;
+}
+.zhongjian{
+	width: 100%;
+	height: 4.94rem;
+	/* background: pink; */
+}
+.zj{
+    width: 100%;
+    height: 5.14rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border-bottom: 0.4rem solid #f4f5f9;
+}
+.zj-list{
+    width:25%;
+    height:1.77rem;
+    text-align: center;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.8rem;
+}
+.icont1{
+	font-size: 0.8rem;
+	color: #ff6360;
+}
+.icont2{
+	font-size: 0.7rem;
+	color: #ff6360;
+}
+.zj-list1-wenzi{
+	font-size: 0.45rem;
+	color: #9e9e9e;
+}
+.scdd{
+	width: 100%;
+	height: 3.56rem;
+	/* background: greenyellow; */
+}
+.scdd-title{
+	width: 100%;
+	height: 1.06rem;
+	display: block;
+}
+.scdd-dibu{
+    width: 100%;
+    height: 2.5rem;
+    padding:0 0.24rem;
+    border-bottom: 0.02rem solid #f4f5f9;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sc-db-list{
+    width:25%;
+    height:1.77rem;
+    text-align: center;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconsc1{
+	font-size: 0.7rem;
+	color: #ff6360;
+}
+.iconsc2{
+	font-size: 0.6rem;
+	color: #ff6360;
+}
+.sc-list1-wenzi{
+	font-size: 0.4rem;
+	color: black;
+	margin-top: 0.2rem;
+}
+.scdd-title1{
+	width: 100%;
+	height: 1.06rem;
+	display: block;
+	margin-bottom: 1.7rem;
+}
+.scdd-wenzi1{
+    font-size: 0.5rem;
+    color: #1f1f1f;
+    float: left;
+    margin: 0.5rem 0 0 0.4rem;
+}
+.icontsc1{
+	font-size: 0.4rem;
+    color: #1f1f1f;
+    float:right;
+    margin: 0.5rem 0.4rem 0 0;
+}
+.title23{
+	border-top: 0.4rem solid #f4f5f9;
+	border-bottom: 0.4rem solid #f4f5f9;
+	line-height: 0.06rem;
+}
+.table{
+	width: 100%;
+	height: 1.7rem;
+	background: #fff;
+	line-height: 0.7rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.table1{
+	text-align: center;
+}
+.icontb1{
+    font-size: 0.6rem;
+    color: #837c7a; 
+}
+.icontb2{
+	font-size: 0.6rem;
+     color: #e47d76;
+}
+.table-wenzi{
+	font-size: 0.3rem;
+    color: #837c7a;
+}
+.table-wenzi2{
+	font-size: 0.3rem;
+    color: #e47d76;
+}
+.icontb3{
+	font-size: 0.6rem;
+     color: #837c7a;
+     margin-top: 0.8rem;
+}

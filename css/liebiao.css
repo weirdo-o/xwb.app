@@ -1,0 +1,166 @@
+/*
+* @Author: ow
+* @Date:   2018-01-07 18:56:12
+* @Last Modified by:   ow
+* @Last Modified time: 2018-01-08 08:35:19
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 531051 */
+  src: url('http://at.alicdn.com/t/font_531051_l0p25b3uqvlyds4i.eot');
+  src: url('http://at.alicdn.com/t/font_531051_l0p25b3uqvlyds4i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_531051_l0p25b3uqvlyds4i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_531051_l0p25b3uqvlyds4i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_531051_l0p25b3uqvlyds4i.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+i{
+	font-style: normal;
+}
+.icontb-2{
+	font-size: 0.7rem;
+	color: #616161;
+}
+.icontb-1{
+	font-size: 1.2rem;
+	color: #616161;
+	/* font-weight: normal;  */
+}
+.header{
+	width: 100%;
+	height: 4.1rem;
+	position: fixed;
+	 background: #fff;
+	border-bottom: 0.03rem solid #f4f3f8;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.toubu{
+    width: 100%;
+    height: 1.47rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.47rem;
+    
+}
+.sousuo{
+	width: 7.88rem;
+	height: 1rem;
+	background: #f4f5f9;
+	border-radius: 0.1rem;
+	margin: 0.22rem 0;
+	display: flex;
+	line-height: 1rem;
+	align-items: baseline;
+}
+.icontb2{
+	font-size: 0.5rem;
+	color: #c7c9c8;
+	margin-left: 0.2rem;
+}
+.sousuowenzi{
+	font-size: 0.4rem;
+	color:#c7c9c8; 
+	margin-left: 0.4rem;
+}
+.tb-box{
+    flex-basis: 100%;
+    height: 1.33rem;
+    background: #f4f5f9;
+    display: flex;
+    justify-content: space-around;
+}
+.tb-box-title1{
+	width: 20%;
+	height: 1.33rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tb-box-wenzi1{
+	font-size: 0.4rem;
+	color: #666;
+}
+.icontt2{
+	font-size: 0.4rem;
+	color: #666;
+	margin-left: 0.06rem;
+}
+.icontt3{
+	font-size: 0.6rem;
+	color: #666;
+}
+.tb-box3{
+    width: 100%;
+    height: 1.29rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tb-box-title2{
+	width: 2.18rem;
+	height: 0.93rem;
+	background: #f0f0f0;
+	border-radius: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dibu-list{
+	width: 100%;
+	height: 4rem;
+	border-top: 0.04rem solid #f4f5f9;
+	border-bottom: 0.04rem solid #f4f5f9;
+}
+.dblist1{
+	margin-top: 4.1rem;
+}
+.dibu-list-left{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.dibu-list-left img{
+	width: 100%;
+	height: 100%;
+}
+.dibu-list-right{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.db-l-r-wz1{
+	width: 100%;
+	height: 2.65rem;
+    padding: 0.5rem 0.4rem 0.6rem 0.4rem;
+    box-sizing: border-box;
+}
+.db-l-r-wz2{
+	width: 100%;
+	height: 1.45rem;
+	padding: 0.5rem 0.2rem 0.5rem 0.4rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: baseline;
+}
+.db-l-r-wz1{
+	font-size: 0.4rem;
+	color: #666;
+}
+.db-l-r-jiage{
+	font-size: 0.5rem;
+	color: #f1594c;
+}
+.db-l-r-pl{
+	font-size: 0.2rem;
+	color: #989898;
+	margin-left: 0.8rem;
+}
+.rp12{
+	margin-left: 0.4rem;
+}
