@@ -165,13 +165,13 @@
 		    </div>
 		</div>     
 	</div>
-	<div class="jrms">
+	<div class="swiper-container jrms ">
 		<div class="jrms-title">
 			<div class="jrms-wenzi1">今日秒杀</div>
 			<i class="iconfont icontjr1">&#xe601;</i>
 		</div>
-		<ul class="jrms-dibu">
-			<li class="jrms-dibu-list"> 
+		<ul class="swiper-wrapper jrms-dibu">
+			<li class="swiper-slide jrms-dibu-list">
 				    <div class="jr-list-tu1">
 				        <img src="img/jrms1 (1).png" alt="">
 				    </div>
@@ -181,17 +181,17 @@
 				    	<div class="jr-jiage-r">￥89</div>
 				    </div>
 			    </li>
-			    <li class="jrms-dibu-list"> 
+			    <li class="swiper-slide jrms-dibu-list">
 				    <div class="jr-list-tu1">
 				        <img src="img/jrms1 (2).png" alt="">
 				    </div>
-				    <div class="jr-list-title1">BOTH 犬用鲨鱼软骨矿物...</div>
+				    <div class="swiper-slide jr-list-title1">BOTH 犬用鲨鱼软骨矿物...</div>
 				    <div class="jr-list-jiage">
 				    	<div class="jr-jiage-l">￥47</div>
 				    	<div class="jr-jiage-r">￥89</div>
 				    </div>
 			    </li>
-			    <li class="jrms-dibu-list"> 
+			    <li class="swiper-slide jrms-dibu-list">
 				    <div class="jr-list-tu1">
 				        <img src="img/jrms1 (3).png" alt="">
 				    </div>
@@ -201,7 +201,7 @@
 				    	<div class="jr-jiage-r">￥89</div>
 				    </div>
 			    </li>
-			    <li class="jrms-dibu-list"> 
+			    <li class="swiper-slide jrms-dibu-list">
 				    <div class="jr-list-tu1">
 				        <img src="img/jrms1 (2).png" alt="">
 				    </div>
@@ -211,6 +211,46 @@
 				    	<div class="jr-jiage-r">￥89</div>
 				    </div>
 			    </li>
+			<li class="swiper-slide jrms-dibu-list">
+				<div class="jr-list-tu1">
+					<img src="img/jrms1 (2).png" alt="">
+				</div>
+				<div class="swiper-slide jr-list-title1">BOTH 犬用鲨鱼软骨矿物...</div>
+				<div class="jr-list-jiage">
+					<div class="jr-jiage-l">￥47</div>
+					<div class="jr-jiage-r">￥89</div>
+				</div>
+			</li>
+			<li class="swiper-slide jrms-dibu-list">
+				<div class="jr-list-tu1">
+					<img src="img/jrms1 (3).png" alt="">
+				</div>
+				<div class="jr-list-title1">BOTH 犬用鲨鱼软骨矿物...</div>
+				<div class="jr-list-jiage">
+					<div class="jr-jiage-l">￥47</div>
+					<div class="jr-jiage-r">￥89</div>
+				</div>
+			</li>
+			<li class="swiper-slide jrms-dibu-list">
+				<div class="jr-list-tu1">
+					<img src="img/jrms1 (2).png" alt="">
+				</div>
+				<div class="jr-list-title1">BOTH 犬用鲨鱼软骨矿物...</div>
+				<div class="jr-list-jiage">
+					<div class="jr-jiage-l">￥47</div>
+					<div class="jr-jiage-r">￥89</div>
+				</div>
+			</li>
+			<li class="swiper-slide jrms-dibu-list">
+				<div class="jr-list-tu1">
+					<img src="img/jrms1 (1).png" alt="">
+				</div>
+				<div class="jr-list-title1">BOTH 犬用鲨鱼软骨矿物...</div>
+				<div class="jr-list-jiage">
+					<div class="jr-jiage-l">￥47</div>
+					<div class="jr-jiage-r">￥89</div>
+				</div>
+			</li>
 		</ul>
 	</div>
 	<a href="" class="tutu1">
@@ -353,7 +393,7 @@
 </body>
 </html>
 <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.swiper-container.banner', {
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: {
@@ -364,5 +404,13 @@
             el: '.swiper-pagination',
             clickable: true,
         }
+    });
+
+    var swiper1 = new Swiper('.swiper-container.jrms', {
+        slidesPerView: 4,
+        spaceBetween: 5,
+        slidesPerGroup: 4,
+        loop: true,
+        loopFillGroupWithBlank: true
     });
 </script>
